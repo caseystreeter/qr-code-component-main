@@ -1,4 +1,12 @@
 * {
   background-color: #d6e2f0;
 }
+
+.image {
+  background: url(images/image-qr-code.png);
+}
+
+.attribution {
+  padding-top: 36rem;
+}
 /*# sourceMappingURL=styles.css.map */
