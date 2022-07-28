@@ -2,8 +2,24 @@
   background-color: #d6e2f0;
 }
 
+.main-div {
+  background-color: white;
+  height: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .image {
-  background: url(images/image-qr-code.png);
+  background-color: yellow;
+  height: 30%;
+}
+
+.lower-div {
+  color: #1f3251;
+  background-color: orange;
 }
 
 .attribution {
