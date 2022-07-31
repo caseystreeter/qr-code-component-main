@@ -29,16 +29,20 @@
 .image {
   background-color: yellow;
   background: url(/images/image-qr-code.png);
-  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 440px;
   width: 80%;
+  background-size: cover;
 }
 
 .image img {
   height: 30px;
   width: 60px;
   max-width: 60px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .lower-div {
