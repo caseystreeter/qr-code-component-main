@@ -27,7 +27,7 @@
 }
 
 .image {
-  background-color: yellow;
+  background-color: white;
   background: url(/images/image-qr-code.png);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,7 +46,7 @@
 }
 
 .lower-div {
-  background-color: orange;
+  background-color: white;
   color: #1f3251;
   height: 35%;
   padding: 1rem;
