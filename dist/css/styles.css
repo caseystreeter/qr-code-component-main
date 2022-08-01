@@ -28,7 +28,7 @@
 
 .image {
   background-color: white;
-  background: url(/images/image-qr-code.png);
+  background: url(../../images/image-qr-code.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
