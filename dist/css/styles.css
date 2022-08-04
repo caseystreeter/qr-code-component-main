@@ -1,11 +1,15 @@
+:root {
+  --grayish-blue: hsl(220, 15%, 55%);
+}
+
 * {
   background-color: #d6e2f0;
 }
 
 .main-div {
   background-color: white;
-  height: 60%;
-  width: 20%;
+  height: 31rem;
+  width: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,6 +28,7 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  border-radius: 1.25rem;
 }
 
 .image {
@@ -32,15 +37,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 440px;
-  width: 80%;
-  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 288px;
+  width: 90%;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-size: contain;
+  border-radius: 0.625rem;
 }
 
 .image img {
   height: 30px;
   width: 60px;
-  max-width: 60px;
   -o-object-fit: scale-down;
      object-fit: scale-down;
 }
@@ -48,8 +58,10 @@
 .lower-div {
   background-color: white;
   color: #1f3251;
-  height: 35%;
-  padding: 1rem;
+  height: 25%;
+  padding-top: 0;
+  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .lower-div h3 {
@@ -57,14 +69,17 @@
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
   text-align: center;
+  padding-top: 0;
+  font-size: 1.375rem;
 }
 
 .lower-div p {
   background-color: white;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
+  color: var(--grayish-blue);
 }
 
 .attribution {
