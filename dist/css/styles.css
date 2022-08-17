@@ -2,7 +2,7 @@
   --grayish-blue: hsl(220, 15%, 55%);
 }
 
-* {
+body {
   background-color: #d6e2f0;
 }
 
@@ -42,7 +42,7 @@
           justify-content: center;
   height: 288px;
   width: 90%;
-  padding-bottom: 0px;
+  padding-bottom: 3px;
   background-size: contain;
   border-radius: 0.625rem;
 }
@@ -72,10 +72,10 @@
   padding-left: 20px;
   padding-right: 20px;
   font-size: 1.375rem;
+  margin-bottom: 0;
 }
 
 .lower-div p {
-  background-color: white;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -89,7 +89,7 @@
 
 .footer {
   position: absolute;
-  width: 100%;
+  width: 99%;
   bottom: .5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,9 +102,5 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.attribution {
-  padding-top: 41.5rem;
 }
 /*# sourceMappingURL=styles.css.map */

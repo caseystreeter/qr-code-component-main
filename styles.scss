@@ -2,7 +2,7 @@
     --grayish-blue : hsl(220, 15%, 55%);
 }
 
-*{
+body{
     background-color: hsl(212, 45%, 89%);
 }
 
@@ -28,8 +28,7 @@
     justify-content: center;
     height: 288px;
     width: 90%;
-    // padding-top: 1px;
-    padding-bottom: 0px;
+    padding-bottom: 3px;
     background-size: contain;
     border-radius: 0.625rem;
     img{
@@ -56,10 +55,10 @@
         padding-left: 20px;
         padding-right: 20px;
         font-size: 1.375rem;
+        margin-bottom: 0;
 
     }
     p{
-        background-color: hsl(0, 0%, 100%);
         font-family: 'Outfit', sans-serif;
         font-weight: 400;
         font-size: 15px;
@@ -75,15 +74,12 @@
 
 .footer{
     position: absolute;
-    width: 100%;
+    width: 99%;
     bottom: .5rem;
     display: flex;
     top: 97%;
     font-size: 10px;
     align-items: center;
     justify-content: center;
-}
-
-.attribution{
-    padding-top: 41.5rem;
+    // padding-right: 5px;
 }
